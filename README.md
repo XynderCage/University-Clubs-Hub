@@ -1,2 +1,4 @@
 # University-Clubs-Hub
 CSI473 Project
+
+There are several clubs in the institution, a lot of clubs struggle to acquire new members and the university community lacks a place to find information on said clubs. Internally when a club is still new it struggles to acquire venues and times. The proposed university clubs hub will allow for a more seamless process for the community to navigate the multiple clubs as opposed to word of mouth. A club will give it's relevant information to administration staff that will verify the necessary details, they will then allocate a booking to the club that allocates them a time and venue based on their requirements. This information will then be made available to the community so that when a prospective member views it they can go to the clubs specified venue and/or contact the designated club leaders directly.
