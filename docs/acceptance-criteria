@@ -1,0 +1,27 @@
+Given-When-Then Acceptance Criteria
+These should test the actual behavior of the system.
+
+- Acceptance Criterion 1 — Matching Clubs
+Given the system contains verified clubs matching the user's search criteria, 
+When the user searches using those criteria, 
+Then the system shall display the matching clubs.
+
+- Acceptance Criterion 2 — No Results
+Given there are no verified clubs matching the user's search criteria, 
+When the user performs the search, 
+Then the system shall display a message indicating that no matching clubs were found.
+
+- Acceptance Criterion 3 — View Club Information
+Given a search returns one or more clubs,
+When the user selects a club from the search results,
+Then the system shall display the club's available information, including its description and designated contact information.
+
+- Acceptance Criterion 4 — Broadening Search
+Given a user's search returns no results, 
+When the user changes or removes one or more search criteria and searches again, 
+Then the system shall perform the revised search and display any matching clubs.
+
+- Acceptance Criterion 5 — Only Verified Clubs
+Given both verified and unverified clubs exist in the system, 
+When a user searches for clubs, 
+Then the search results shall contain only verified clubs.
