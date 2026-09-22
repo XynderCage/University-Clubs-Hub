@@ -1,0 +1,279 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="c-tFouX4xejxsgIFDaOB">
+    <mxGraphModel dx="692" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-13" edge="1" parent="1" source="P80_KaKbWhlKeMsb9Y6x-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P80_KaKbWhlKeMsb9Y6x-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-14" edge="1" parent="1" source="P80_KaKbWhlKeMsb9Y6x-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P80_KaKbWhlKeMsb9Y6x-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-15" edge="1" parent="1" source="P80_KaKbWhlKeMsb9Y6x-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P80_KaKbWhlKeMsb9Y6x-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-16" edge="1" parent="1" source="P80_KaKbWhlKeMsb9Y6x-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P80_KaKbWhlKeMsb9Y6x-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="User" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;span class=&quot;&quot;&gt;Search for Clubs&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;span class=&quot;&quot;&gt;Display Contact Information&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-9" edge="1" parent="1" source="P80_KaKbWhlKeMsb9Y6x-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P80_KaKbWhlKeMsb9Y6x-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-10" connectable="0" parent="P80_KaKbWhlKeMsb9Y6x-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;Includes&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1343" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;span class=&quot;&quot;&gt;View Club Information&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="210" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;span class=&quot;&quot;&gt;View Clubs&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=default;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="500" width="310" x="170" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h2&gt;&lt;span class=&quot;&quot;&gt;Club Discovery &amp;amp; Browsing&lt;/span&gt;&lt;/h2&gt;" vertex="1">
+          <mxGeometry height="30" width="135" x="257.5" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="530" width="370" x="170" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-24" edge="1" parent="1" source="P80_KaKbWhlKeMsb9Y6x-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="P80_KaKbWhlKeMsb9Y6x-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-20" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="User" vertex="1">
+          <mxGeometry height="60" width="30" x="40" y="1390" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h2&gt;&lt;span class=&quot;&quot;&gt;Club Activities&lt;/span&gt;&lt;/h2&gt;" vertex="1">
+          <mxGeometry height="30" width="165" x="270" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;span class=&quot;&quot;&gt;View Club Activities&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="240" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="530" width="415" x="225" y="2500" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-38" edge="1" parent="1" source="P80_KaKbWhlKeMsb9Y6x-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="P80_KaKbWhlKeMsb9Y6x-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-26" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;div&gt;&lt;span class=&quot;&quot;&gt;Club&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;&quot;&gt;&amp;nbsp;Representative&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="120" y="2600" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-39" edge="1" parent="1" source="P80_KaKbWhlKeMsb9Y6x-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P80_KaKbWhlKeMsb9Y6x-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-40" edge="1" parent="1" source="P80_KaKbWhlKeMsb9Y6x-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P80_KaKbWhlKeMsb9Y6x-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-41" edge="1" parent="1" source="P80_KaKbWhlKeMsb9Y6x-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P80_KaKbWhlKeMsb9Y6x-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-28" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;&quot;&gt;Administrative&amp;nbsp;&lt;br&gt;Staff&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="120" y="2790" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h2&gt;&lt;span class=&quot;&quot;&gt;Club Registration &amp;amp; Verification&lt;/span&gt;&lt;/h2&gt;" vertex="1">
+          <mxGeometry height="30" width="265" x="293" y="2530" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-30" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;span class=&quot;&quot;&gt;Register Club&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="293" y="2590" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-34" edge="1" parent="1" source="P80_KaKbWhlKeMsb9Y6x-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="P80_KaKbWhlKeMsb9Y6x-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="2715" />
+              <mxPoint x="500" y="2950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-35" connectable="0" parent="P80_KaKbWhlKeMsb9Y6x-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;Includes&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1365" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-36" edge="1" parent="1" source="P80_KaKbWhlKeMsb9Y6x-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="P80_KaKbWhlKeMsb9Y6x-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-37" connectable="0" parent="P80_KaKbWhlKeMsb9Y6x-36" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;Includes&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-31" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;span class=&quot;&quot;&gt;Verify Club Registration&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="132.5" x="286.75" y="2690" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-32" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;span class=&quot;&quot;&gt;Approve/Reject Club&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="299.25" y="2910" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-33" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;span class=&quot;&quot;&gt;Review Club Registration&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="299.25" y="2815" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="580" width="400" x="225" y="3510" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h2&gt;&lt;span class=&quot;&quot;&gt;Club Information Management&lt;/span&gt;&lt;/h2&gt;" vertex="1">
+          <mxGeometry height="30" width="170" x="340" y="3530" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-52" edge="1" parent="1" source="P80_KaKbWhlKeMsb9Y6x-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="P80_KaKbWhlKeMsb9Y6x-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="3670" />
+              <mxPoint x="440" y="3765" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-55" connectable="0" parent="P80_KaKbWhlKeMsb9Y6x-52" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;Includes&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0857" y="-1" as="geometry">
+            <mxPoint y="33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-53" edge="1" parent="1" source="P80_KaKbWhlKeMsb9Y6x-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P80_KaKbWhlKeMsb9Y6x-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="3650" />
+              <mxPoint x="520" y="3831.7" />
+            </Array>
+            <mxPoint x="407.57" y="3650" as="sourcePoint" />
+            <mxPoint x="399.99640687119296" y="3831.715728752539" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-54" connectable="0" parent="P80_KaKbWhlKeMsb9Y6x-53" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;Inlcludes&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0555" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-44" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;span class=&quot;&quot;&gt;Manage Club Information&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="3610" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-51" edge="1" parent="1" source="P80_KaKbWhlKeMsb9Y6x-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.917;exitY=0.825;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" target="P80_KaKbWhlKeMsb9Y6x-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-56" connectable="0" parent="P80_KaKbWhlKeMsb9Y6x-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;Includes&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0588" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-45" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;span class=&quot;&quot;&gt;Update Club Information&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="290" y="3810" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-47" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;br&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;span class=&quot;&quot;&gt;Add Club&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="50" width="80" x="300" y="3740" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-48" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;span class=&quot;&quot;&gt;Remove/Deactivate Club&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="3950" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-59" edge="1" parent="1" source="P80_KaKbWhlKeMsb9Y6x-50" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P80_KaKbWhlKeMsb9Y6x-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-60" edge="1" parent="1" source="P80_KaKbWhlKeMsb9Y6x-50" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P80_KaKbWhlKeMsb9Y6x-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-61" edge="1" parent="1" source="P80_KaKbWhlKeMsb9Y6x-50" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P80_KaKbWhlKeMsb9Y6x-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-63" edge="1" parent="1" source="P80_KaKbWhlKeMsb9Y6x-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P80_KaKbWhlKeMsb9Y6x-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-50" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;div&gt;&lt;span class=&quot;&quot;&gt;SRC&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;&quot;&gt;Member&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="150" y="3610" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-64" edge="1" parent="1" source="P80_KaKbWhlKeMsb9Y6x-57" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="P80_KaKbWhlKeMsb9Y6x-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-65" edge="1" parent="1" source="P80_KaKbWhlKeMsb9Y6x-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P80_KaKbWhlKeMsb9Y6x-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="3670" />
+              <mxPoint x="600" y="3860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-57" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;span class=&quot;&quot;&gt;Club&amp;nbsp;&lt;br&gt;Representative&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="670" y="3620" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-66" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="740" width="445" x="180" y="4540" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-67" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h2&gt;&lt;span class=&quot;&quot;&gt;Venue/Facility&amp;nbsp;&lt;/span&gt;&lt;/h2&gt;&lt;h2&gt;&lt;span class=&quot;&quot;&gt;Requesting &amp;amp; Approval&lt;/span&gt;&lt;/h2&gt;" vertex="1">
+          <mxGeometry height="40" width="280" x="285" y="4560" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-68" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;span class=&quot;&quot;&gt;Request Venue or Facility&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="260" y="4640" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-70" edge="1" parent="1" source="P80_KaKbWhlKeMsb9Y6x-69" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P80_KaKbWhlKeMsb9Y6x-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-87" edge="1" parent="1" source="P80_KaKbWhlKeMsb9Y6x-69" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P80_KaKbWhlKeMsb9Y6x-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-69" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;span class=&quot;&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;span class=&quot;&quot;&gt;Club&amp;nbsp;&lt;br&gt;Representative&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="100" y="4670" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-78" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="P80_KaKbWhlKeMsb9Y6x-75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="4890" />
+              <mxPoint x="410" y="4975" />
+            </Array>
+            <mxPoint x="360" y="4890" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-83" connectable="0" parent="P80_KaKbWhlKeMsb9Y6x-78" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;Includes&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="0.104" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-79" edge="1" parent="1" source="P80_KaKbWhlKeMsb9Y6x-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="P80_KaKbWhlKeMsb9Y6x-76">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="4860" />
+              <mxPoint x="480" y="4860" />
+              <mxPoint x="480" y="5100" />
+              <mxPoint x="390" y="5100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-84" connectable="0" parent="P80_KaKbWhlKeMsb9Y6x-79" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;Includes&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.065" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-74" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;pre&gt;&lt;span&gt;Allocate Venue &lt;br&gt;and Time&lt;/span&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="250" y="4830" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-75" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;pre&gt;&lt;span&gt;Review Venue &lt;br&gt;Request&lt;/span&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="260" y="4940" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-76" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;span class=&quot;&quot;&gt;Request Venue or Facility&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="270" y="5070" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-80" edge="1" parent="1" source="P80_KaKbWhlKeMsb9Y6x-77" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P80_KaKbWhlKeMsb9Y6x-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-81" edge="1" parent="1" source="P80_KaKbWhlKeMsb9Y6x-77" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P80_KaKbWhlKeMsb9Y6x-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-82" edge="1" parent="1" source="P80_KaKbWhlKeMsb9Y6x-77" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P80_KaKbWhlKeMsb9Y6x-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-77" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Administrative staff" vertex="1">
+          <mxGeometry height="60" width="30" x="90" y="4970" as="geometry" />
+        </mxCell>
+        <mxCell id="P80_KaKbWhlKeMsb9Y6x-85" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;span class=&quot;&quot;&gt;View Booking Status&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="4740" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
