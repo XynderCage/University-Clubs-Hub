@@ -1,0 +1,41 @@
+Quality Scenarios
+
+QS1 — Search Performance:
+Source: University community member
+Stimulus: User searches for a club
+Environment: Normal operating conditions
+Artifact: Club search functionality
+Response: System retrieves and displays matching clubs
+Measure: Search results shall be displayed within 3 seconds of submitting a search.
+
+QS2 — System Availability:
+Source: University community member
+Stimulus: User attempts to access the platform
+Environment: Normal university operating hours
+Artifact: University Clubs Hub
+Response: System allows the user to access the platform
+Measure: The platform shall maintain at least 99% availability during normal operating periods.
+
+QS3 — Usability:
+Source: First-time user
+Stimulus: User wants to find a club
+Environment: User has no previous experience with the platform
+Artifact: Search and navigation interface
+Response: User searches for and views a relevant club
+Measure: At least 90% of first-time users shall be able to find and open a relevant club within 2 minutes without assistance during usability testing.
+
+QS4 — Security:
+Source: Unauthorized user
+Stimulus: Attempts to modify club information or submit a venue request
+Environment: Normal system operation
+Artifact: Club management and venue-request functions
+Response: System rejects the unauthorized action
+Measure: 100% of unauthorized modification attempts shall be rejected.
+
+QS5 — Reliability:
+Source: Administrative staff member
+Stimulus: Approves or rejects a venue request
+Environment: Normal system operation
+Artifact: Venue booking record
+Response: System stores and displays the updated booking status
+Measure: 100% of successfully submitted booking decisions shall be persisted correctly
