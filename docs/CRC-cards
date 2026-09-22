@@ -1,0 +1,30 @@
+CRC Card 1 — Club
+Class              Club
+Responsibilities  Maintain club identity and description; maintain verification status; organize activities; submit venue requests; maintain representatives
+Collaborators	    Club Representative, Club Registration, Club Activity, Venue Request, SRC Member
+
+CRC Card 2 — Club Representative
+Class	            Club Representative
+Responsibilities	Represent a club; submit club information; update club information; submit venue requests; view booking decisions
+Collaborators	    Club, Club Registration, Venue Request, Booking
+
+CRC Card 3 — Administrative Staff
+Class	            Administrative Staff
+Responsibilities	Review club registrations; approve/reject clubs; review venue requests; allocate venues; allocate times; approve/reject requests
+Collaborators	    Club Registration, Club, Venue Request, Venue, Booking
+
+CRC Card 4 — Venue Request
+Class	            Venue Request
+Responsibilities	Store requested date/time; record facility requirements; record expected attendance; maintain request status; support approval/rejection
+Collaborators	    Club, Administrative Staff, Venue, Facility, Booking
+
+CRC Card 5 — Club Activity
+Class	            Club Activity
+Responsibilities	Store activity details; associate activity with a club; maintain activity date/time; provide information for notifications
+Collaborators	    Club, Booking, Notification
+
+CRC Card 6 — Booking
+Class	            Booking
+Responsibilities	Record allocated venue; record allocated date/time; maintain booking status; prevent conflicting allocations
+Collaborators	    Venue, Venue Request, Club Activity, Administrative Staff
+
