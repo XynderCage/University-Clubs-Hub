@@ -1,0 +1,24 @@
+FR1 — View Clubs
+The system shall allow university community members to view a list of verified clubs.
+FR2 — Search for Clubs
+The system shall allow users to search for clubs using relevant criteria such as club name, category, or keywords.
+FR3 — View Club Information
+The system shall allow users to view information about a selected club, including its description, activities, and designated contact information.
+FR4 — Register a Club
+The system shall allow authorized representatives of affiliated clubs to submit a club registration.
+FR5 — Verify Club Registration
+The system shall allow authorized administrative staff to review and approve or reject submitted club registrations.
+FR6 — Request Venue or Facility
+The system shall allow authorized club representatives to submit requests for university venues and facilities for approved club activities.
+FR7 — Allocate Venue and Time
+The system shall allow authorized administrative staff to approve venue requests and allocate an available venue and time based on the club's requirements.
+FR8 — Manage Club Information
+The system shall allow authorized SRC members or administrators to add, update, or remove club information where permitted.
+FR9 — Display Club Activities
+The system shall allow users to view upcoming approved activities associated with clubs.
+FR10 — Notify Users
+The system shall notify subscribed or relevant users about upcoming club activities.
+FR11 — Display Contact Information
+The system shall allow users to access the designated contact information of verified club leaders.
+FR12 — Inter-club Communication
+The system shall allow authorized club representatives to communicate with other registered clubs through the platform.
