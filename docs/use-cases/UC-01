@@ -1,0 +1,62 @@
+Fully Dressed Core Use Case
+
+The selected use case is Search for Clubs, which is appropriate because it is one of the main purposes of the proposed system.
+Use Case: Search for Clubs
+Use Case ID: UC-01
+Use Case Name: Search for Clubs
+Primary Actor: University Community Member/User
+Supporting Actors: None.
+Goal: Allow a user to find clubs that match their interests or search criteria.
+Trigger: The user wants to find a particular university club.
+
+Preconditions
+1.	The University Clubs Hub is accessible. 
+2.	The system contains verified club information. 
+3.	The user has accessed the club search functionality. 
+
+Main Success Scenario
+1.	The user opens the University Clubs Hub. 
+2.	The user selects the Search Clubs function. 
+3.	The system displays the available search options. 
+4.	The user enters their search criteria. 
+5.	The user submits the search. 
+6.	The system searches the database for verified clubs matching the criteria. 
+7.	The system displays the matching clubs. 
+8.	The user selects a club from the results. 
+9.	The system displays the selected club's information. 
+10.	The use case ends successfully. 
+
+Postconditions
+If successful:
+•	The system displays clubs matching the user's search criteria. 
+•	The user can view information about a selected club. 
+•	No club information is modified by the search. 
+
+Alternative Flows
+
+A1 — No Matching Clubs
+1.	The user submits a search. 
+2.	The system finds no clubs matching the specified criteria. 
+3.	The system displays a message indicating that no matching clubs were found. 
+4.	The system allows the user to modify their search criteria. 
+5.	The use case returns to the search step. 
+
+A2 — Search Criteria Too Specific
+1.	The user enters several restrictive search criteria. 
+2.	The system finds no matching clubs. 
+3.	The system informs the user that the search returned no results. 
+4.	The user broadens their search criteria. 
+5.	The system performs the revised search.
+
+A3 — Multiple Matching Clubs
+1.	The system finds multiple clubs matching the search. 
+2.	The system displays the matching clubs. 
+3.	The user selects the club they are interested in. 
+4.	The system displays the selected club's information. 
+
+A4 — Invalid Search Input
+1.	The user enters invalid or unsupported search information. 
+2.	The system identifies the invalid input. 
+3.	The system displays an appropriate error message. 
+4.	The user corrects the search information. 
+5.	The system performs the search.
