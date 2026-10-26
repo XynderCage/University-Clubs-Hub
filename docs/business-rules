@@ -1,0 +1,24 @@
+Business Rules / Invariants
+BR1 — Only Verified Clubs Are Public
+Only clubs whose registration has been approved shall be visible to ordinary university users.
+
+BR2 — Club Must Have a Representative
+Every registered club must have at least one designated club representative.
+
+BR3 — Venue Cannot Be Double-Booked
+A venue shall not have two approved bookings occupying overlapping dates and times.
+
+BR4 — Only Approved Clubs Can Request Venues
+A club must be verified before it can submit a venue or facility request.
+
+BR5 — A Rejected Request Cannot Produce a Booking
+A venue request with a rejected status shall not have an active/approved booking associated with it.
+
+BR6 — Booking Must Match the Requested Activity
+An approved booking must be associated with a valid club activity.
+
+BR7 — Venue Capacity Must Be Sufficient
+The capacity of the allocated venue must be greater than or equal to the expected number of attendees.
+
+BR8 — Only Authorized Staff Can Approve Requests
+Only authorized administrative staff may approve or reject club registrations and venue requests.
