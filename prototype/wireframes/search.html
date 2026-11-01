@@ -1,0 +1,29 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>University Clubs Hub — Find a club</title>
+<style>
+:root{font-family:system-ui,sans-serif;color:#182334;background:#f5f7fa}body{margin:0}
+header{background:#17365d;color:white;padding:1.2rem max(1rem,calc((100% - 960px)/2))}
+main{max-width:960px;margin:2rem auto;padding:0 1rem}.panel{background:white;border:1px solid #d5dce5;border-radius:12px;padding:1.25rem;margin:1rem 0}
+label{display:block;font-weight:650;margin:.6rem 0 .25rem}input,select,button{font:inherit;padding:.7rem;border:1px solid #77869a;border-radius:6px}
+input,select{width:100%;box-sizing:border-box}button{background:#17365d;color:white;cursor:pointer;margin-top:1rem}
+:focus-visible{outline:3px solid #e49b18;outline-offset:3px}.result{border-top:1px solid #d5dce5;padding:1rem 0}
+.muted{color:#526174}.error{color:#8a1c1c}.status{min-height:1.5rem}@media(min-width:650px){.filters{display:grid;grid-template-columns:2fr 1fr;gap:1rem}}
+</style></head><body><header><strong>University Clubs Hub</strong><div>Discover verified clubs at your university</div></header>
+<main><h1>Find a club</h1><p>Search by club name, category or a keyword to discover activities and contact details.</p>
+<section class="panel" aria-labelledby="search-heading"><h2 id="search-heading">Search clubs</h2><form id="search-form">
+<div class="filters"><div><label for="q">Club name or keyword</label><input id="q" name="q" maxlength="100" placeholder="e.g. robotics, photography"></div>
+<div><label for="category">Category</label><select id="category" name="category"><option value="">All categories</option><option>Academic</option><option>Arts</option><option>Science</option><option>Technology</option></select></div></div>
+<button type="submit">Search clubs</button></form></section><p id="status" class="status" role="status" aria-live="polite"></p>
+<section id="results" class="panel" aria-label="Search results"></section>
+<script>
+const form=document.querySelector('#search-form'), statusEl=document.querySelector('#status'), results=document.querySelector('#results');
+async function search(){const data=new FormData(form),params=new URLSearchParams();for(const [k,v] of data)if(v.trim())params.set(k,v.trim());
+statusEl.textContent='Searching clubs…';results.replaceChildren();try{const response=await fetch('/api/clubs?'+params.toString());const body=await response.json();
+if(!response.ok)throw new Error(body.error?.message||'Search failed.');statusEl.textContent=`${body.count} verified club(s) found.`;
+if(!body.items.length){results.textContent='No matching verified clubs were found. Try a broader keyword or select All categories.';return;}
+for(const club of body.items){const article=document.createElement('article');article.className='result';const h=document.createElement('h3');h.textContent=club.name;
+const meta=document.createElement('p');meta.className='muted';meta.textContent=club.category;const desc=document.createElement('p');desc.textContent=club.description;
+const contact=document.createElement('p');contact.textContent=`Contact: ${club.contact_name} (${club.contact_email})`;article.append(h,meta,desc,contact);results.append(article);}
+}catch(e){statusEl.textContent='';results.replaceChildren();const p=document.createElement('p');p.className='error';p.textContent=e.message+' Please try again.';results.append(p);}}
+form.addEventListener('submit',e=>{e.preventDefault();search()});search();
+</script></main></body></html>
