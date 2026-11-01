@@ -11,3 +11,11 @@
 
 ## Not selected
 A broad event-driven architecture is not justified solely because FR10 mentions notifications. Notification delivery is outside the selected slice.
+
+## Alternatives and accepted consequences
+
+| Selected technique | Alternative and trade-off | Reason for our choice and accepted cost |
+|---|---|---|
+| Repository port and dependency inversion | Let ClubService call SQLite directly. | Direct SQL would couple the service to the database driver. The port allows a fake repository during service testing, but adds an interface and adapter that must stay consistent. |
+| Application service | Put validation and use-case logic inside the HTTP handler. | ClubService keeps search validation reusable outside HTTP. This adds another layer, so transport handling remains in Handler and SQL remains in SQLiteClubRepository. |
+| Explicit HTTP error mapping | Return an empty result or expose the database exception when a query fails. | An empty result would mislead users, while raw exceptions could expose internal details. A stable 503 response communicates temporary failure, but error mappings must be maintained and tested. |

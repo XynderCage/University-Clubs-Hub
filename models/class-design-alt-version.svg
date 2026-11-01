@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="1120" viewBox="0 0 1580 1120"><defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M1 1 L10 6 L1 11" fill="none" stroke="#42546b" stroke-width="1.5"/></marker><marker id="triangle" markerWidth="15" markerHeight="15" refX="13" refY="7" orient="auto"><path d="M1 1 L13 7 L1 13 Z" fill="white" stroke="#42546b" stroke-width="1.5"/></marker></defs><rect width="1580" height="1120" fill="white"/>
+<text x="50" y="50" font-family="DejaVu Sans,sans-serif" font-size="30" fill="#17365d">University Clubs Hub | Detailed class design</text>
+<text x="50" y="98" font-family="DejaVu Sans,sans-serif" font-size="18" fill="#42546b">Lab 09 • UC-01: Search for Clubs • FR1–FR3 • BR1: verified clubs only</text>
+<rect x="50" y="145" width="300" height="150" rx="4" fill="#e8f1fb" stroke="#526780" stroke-width="1.5"/><text x="66" y="175" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="bold" fill="#182b43">Handler</text><path d="M50 191 H350" stroke="#526780"/>
+<text x="66" y="218" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#182b43" xml:space="preserve">+ do_GET()</text>
+<text x="66" y="242" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#182b43" xml:space="preserve">- _json(status, payload)</text>
+<rect x="420" y="145" width="510" height="230" rx="4" fill="#e8f1fb" stroke="#526780" stroke-width="1.5"/><text x="436" y="175" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="bold" fill="#182b43">ClubService</text><path d="M420 191 H930" stroke="#526780"/>
+<text x="436" y="218" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#182b43" xml:space="preserve">- _repository: ClubRepository</text>
+<text x="436" y="242" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#182b43" xml:space="preserve">+ __init__(repository: ClubRepository)</text>
+<text x="436" y="266" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#182b43" xml:space="preserve">+ search(query: str, category: str)</text>
+<text x="436" y="290" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#182b43" xml:space="preserve">    : list[ClubSummary]</text>
+<text x="436" y="314" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#182b43" xml:space="preserve">+ get_details(club_id: int)</text>
+<text x="436" y="338" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#182b43" xml:space="preserve">    : ClubSummary | None</text>
+<rect x="420" y="460" width="510" height="205" rx="4" fill="#f0e9fa" stroke="#526780" stroke-width="1.5"/><text x="436" y="490" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="bold" fill="#182b43">ClubRepository «interface / Protocol»</text><path d="M420 506 H930" stroke="#526780"/>
+<text x="436" y="533" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#182b43" xml:space="preserve">+ search_verified(query: str, category: str)</text>
+<text x="436" y="557" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#182b43" xml:space="preserve">    : Sequence[ClubSummary]</text>
+<text x="436" y="581" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#182b43" xml:space="preserve">+ get_verified_by_id(club_id: int)</text>
+<text x="436" y="605" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#182b43" xml:space="preserve">    : ClubSummary | None</text>
+<rect x="1010" y="460" width="510" height="245" rx="4" fill="#e8f1fb" stroke="#526780" stroke-width="1.5"/><text x="1026" y="490" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="bold" fill="#182b43">SQLiteClubRepository</text><path d="M1010 506 H1520" stroke="#526780"/>
+<text x="1026" y="533" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#182b43" xml:space="preserve">+ db_path: str</text>
+<text x="1026" y="557" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#182b43" xml:space="preserve">+ __init__(db_path: str)</text>
+<text x="1026" y="581" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#182b43" xml:space="preserve">+ search_verified(query: str, category: str)</text>
+<text x="1026" y="605" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#182b43" xml:space="preserve">    : list[ClubSummary]</text>
+<text x="1026" y="629" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#182b43" xml:space="preserve">+ get_verified_by_id(club_id: int)</text>
+<text x="1026" y="653" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#182b43" xml:space="preserve">    : ClubSummary | None</text>
+<rect x="50" y="760" width="450" height="250" rx="4" fill="#fff5d9" stroke="#526780" stroke-width="1.5"/><text x="66" y="790" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="bold" fill="#182b43">ClubSummary «DTO / frozen dataclass»</text><path d="M50 806 H500" stroke="#526780"/>
+<text x="66" y="833" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#182b43" xml:space="preserve">+ id: int</text>
+<text x="66" y="857" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#182b43" xml:space="preserve">+ name: str</text>
+<text x="66" y="881" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#182b43" xml:space="preserve">+ category: str</text>
+<text x="66" y="905" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#182b43" xml:space="preserve">+ description: str</text>
+<text x="66" y="929" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#182b43" xml:space="preserve">+ activities: str</text>
+<text x="66" y="953" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#182b43" xml:space="preserve">+ contact_name: str</text>
+<text x="66" y="977" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#182b43" xml:space="preserve">+ contact_email: str</text>
+<rect x="1060" y="805" width="400" height="110" rx="4" fill="#edf2f5" stroke="#526780" stroke-width="1.5"/><text x="1076" y="835" font-family="DejaVu Sans,sans-serif" font-size="18" font-weight="bold" fill="#182b43">sqlite3 «standard library»</text><path d="M1060 851 H1460" stroke="#526780"/>
+<text x="1076" y="878" font-family="DejaVu Sans Mono,monospace" font-size="16" fill="#182b43" xml:space="preserve">SQLite connection and SQL execution</text>
+<path d="M350,210 L420,210" fill="none" stroke="#42546b" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#arrow)"/><text x="365" y="195" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#42546b" stroke="white" stroke-width="5" paint-order="stroke">calls</text>
+<path d="M675,375 L675,460" fill="none" stroke="#42546b" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#arrow)"/><text x="690" y="420" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#42546b" stroke="white" stroke-width="5" paint-order="stroke">depends on port</text>
+<path d="M1010,540 L930,540" fill="none" stroke="#42546b" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#triangle)"/><text x="935" y="520" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#42546b" stroke="white" stroke-width="5" paint-order="stroke">implements</text>
+<path d="M420,320 L380,320 L380,710 L190,710 L190,760" fill="none" stroke="#42546b" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#arrow)"/><text x="245" y="700" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#42546b" stroke="white" stroke-width="5" paint-order="stroke">uses DTO</text>
+<path d="M675,665 L675,865 L500,865" fill="none" stroke="#42546b" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#arrow)"/><text x="550" y="850" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#42546b" stroke="white" stroke-width="5" paint-order="stroke">return type</text>
+<path d="M1265,705 L1265,805" fill="none" stroke="#42546b" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#arrow)"/><text x="1280" y="760" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#42546b" stroke="white" stroke-width="5" paint-order="stroke">uses</text>
+<text x="50" y="1055" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#42546b">Protocol implementation is structural: explicit inheritance is not required. Public list/detail results exclude unverified clubs.</text>
+<text x="50" y="1088" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#42546b">Parameters omit self; query/category default to &quot;&quot;. Adapter return types describe current behaviour; some annotations are omitted in code.</text>
+</svg>
