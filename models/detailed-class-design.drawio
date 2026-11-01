@@ -1,2 +1,48 @@
-<?xml version='1.0' encoding='utf-8'?>
-<mxfile host="app.diagrams.net" version="24.7.17"><diagram name="Detailed Class Design" id="models-detailed-class-design-drawio"><mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0"><root><mxCell id="0" /><mxCell id="1" parent="0" /><mxCell id="2" value="HTTP Handler\n+do_GET()\n+json_response()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry as="geometry" x="50" y="180" width="170" height="100" /></mxCell><mxCell id="3" value="ClubService\n+search(q, category)\n+get_details(id)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry as="geometry" x="320" y="180" width="190" height="100" /></mxCell><mxCell id="4" value="ClubRepository «interface»\n+search_verified()\n+get_verified_by_id()" style="rounded=1;dashed=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1"><mxGeometry as="geometry" x="620" y="180" width="220" height="110" /></mxCell><mxCell id="5" value="SQLiteClubRepository\n+search_verified()\n+get_verified_by_id()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry as="geometry" x="950" y="180" width="210" height="110" /></mxCell><mxCell id="6" value="ClubSummary «DTO»\nid, name, category\ndescription, activities\ncontact" style="shape=table;html=1;whiteSpace=wrap;container=1;collapsible=0;childLayout=tableLayout;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry as="geometry" x="620" y="400" width="220" height="110" /></mxCell><mxCell id="100" value="calls" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" edge="1" parent="1" source="2" target="3"><mxGeometry as="geometry" relative="1" /></mxCell><mxCell id="101" value="depends on port" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" edge="1" parent="1" source="3" target="4"><mxGeometry as="geometry" relative="1" /></mxCell><mxCell id="102" value="implements" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" edge="1" parent="1" source="5" target="4"><mxGeometry as="geometry" relative="1" /></mxCell><mxCell id="103" value="returns DTO" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" edge="1" parent="1" source="4" target="6"><mxGeometry as="geometry" relative="1" /></mxCell><mxCell id="104" value="uses DTO" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" edge="1" parent="1" source="3" target="6"><mxGeometry as="geometry" relative="1" /></mxCell></root></mxGraphModel></diagram></mxfile>
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Detailed Class Design" id="models-detailed-class-design-drawio">
+    <mxGraphModel dx="2020" dy="1033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="HTTP Handler&lt;div&gt;+do_GET()&lt;/div&gt;&lt;div&gt;+json_response()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="170" x="30" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="ClubService&lt;div&gt;+search(q, category)&lt;/div&gt;&lt;div&gt;+get_details(id)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="190" x="300" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=1;dashed=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="ClubRepository&amp;nbsp;&lt;div&gt;«interface»&lt;div&gt;+search_verified()&lt;/div&gt;&lt;div&gt;+get_verified_by_id()&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="220" x="600" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="SQLiteClubRepository&lt;div&gt;+search_verified()&lt;/div&gt;&lt;div&gt;+get_verified_by_id()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="210" x="930" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="shape=table;html=1;whiteSpace=wrap;container=1;collapsible=0;childLayout=tableLayout;fillColor=#fff2cc;strokeColor=#d6b656;" value="ClubSummary «DTO»\nid, name, category\ndescription, activities\ncontact" vertex="1">
+          <mxGeometry height="110" width="220" x="430" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="100" edge="1" parent="1" source="2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" target="3" value="calls">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="101" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" target="4" value="depends on port">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="102" edge="1" parent="1" source="5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" target="4" value="implements">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="103" edge="1" parent="1" source="4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" target="6" value="returns DTO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="104" edge="1" parent="1" source="3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;" target="6" value="uses DTO">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zpih4rB0fGlc3STDTx1f" name="Page-2">
+    <mxGraphModel dx="732" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
