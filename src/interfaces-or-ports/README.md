@@ -1,0 +1,1 @@
+Stable port definition is implemented in the import-safe Python package `src/interfaces_or_ports/club_repository.py`. This directory is retained to match the Lab 09 repository naming convention; do not duplicate implementation classes here.
